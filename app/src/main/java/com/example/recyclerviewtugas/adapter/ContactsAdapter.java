@@ -1,4 +1,4 @@
-package com.example.recyclereview.adapter;
+package com.example.recyclerviewtugas.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
