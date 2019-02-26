@@ -1,4 +1,4 @@
-package com.example.recyclerviewtugas.models;
+package com.example.recyclerviewtugas;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         RecyclerView rv = findViewById(R.id.rvContact);
-        contacts = Contact.createContactsList(10);
-        com.example.recyclereview.adapter.ContactsAdapter contactsAdapter = new com.example.recyclereview.adapter.ContactsAdapter(contacts);
+        contacts = Contact.createContactsList(20);
+        com.example.recyclerviewtugas.adapter.ContactsAdapter contactsAdapter = new com.example.recyclerviewtugas.adapter.ContactsAdapter(contacts);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         rv.setAdapter(ContactsAdapter);
         rv.setLayoutManager(layoutManager);
