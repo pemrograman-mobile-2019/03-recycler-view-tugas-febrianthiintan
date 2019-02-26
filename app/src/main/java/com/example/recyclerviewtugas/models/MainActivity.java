@@ -1,4 +1,4 @@
-package com.example.recyclerviewtugas.adapter;
+package com.example.recyclerviewtugas.models;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
