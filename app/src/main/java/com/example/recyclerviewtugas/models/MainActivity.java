@@ -5,8 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.recyclereview.R;
-import com.example.recyclereview.models.Contact;
+import com.example.recyclerviewtugas.R;
+import com.example.recyclerviewtugas.adapter.ContactsAdapter;
+import com.example.recyclerviewtugas.models.Contact;
 
 import java.util.ArrayList;
 
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         contacts = Contact.createContactsList(10);
         com.example.recyclereview.adapter.ContactsAdapter contactsAdapter = new com.example.recyclereview.adapter.ContactsAdapter(contacts);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
-        rv.setAdapter(contactsAdapter);
+        rv.setAdapter(ContactsAdapter);
         rv.setLayoutManager(layoutManager);
     }
 }
