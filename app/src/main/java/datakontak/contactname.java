@@ -34,5 +34,4 @@ public class contactname {
     public void setNohp(String nohp){
         this.nohp = nohp;
     }
-
 }
