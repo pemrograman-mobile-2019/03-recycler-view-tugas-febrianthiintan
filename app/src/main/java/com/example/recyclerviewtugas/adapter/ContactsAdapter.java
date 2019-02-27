@@ -9,7 +9,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.recyclerviewtugas.;
+import com.example.recyclereview.R;
+
 import com.example.recyclerviewtugas.models.Contact;
 
 import java.util.List;
