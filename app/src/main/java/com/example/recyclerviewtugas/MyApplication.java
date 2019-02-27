@@ -1,4 +1,4 @@
-package com.example.recyclerviewtugas.MyApplication;
+package com.example.recyclerviewtugas;
 
 import android.app.Application;
 import android.text.TextUtils;

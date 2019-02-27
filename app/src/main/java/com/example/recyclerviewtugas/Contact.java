@@ -1,4 +1,4 @@
-package com.example.recyclerviewtugas.Model;
+package com.example.recyclerviewtugas;
 
 public class Contact {
     String name;
